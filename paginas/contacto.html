@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contacto</title>
+
+    <link rel="shortcut icon" href="../multimedia/sombrero.png" type="image/x-icon"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,900;1,200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="conoce-mas.html"> Conocé más </a>
+                </li>
+                <li>
+                    <a href="top10.html"> Top 10 </a>
+                </li>
+                <li>   
+                    <a href="../index.html"> <img src="../multimedia/logo2-removebg-preview.png" alt="Logo" class="logoMenu"></a>
+                </li>
+                <li>
+                    <a href="artistas.html"> Artistas </a>
+                </li>
+                <li>
+                    <a href="contacto.html"> Contacto </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="fotoPrincipalFondoContacto">
+            <h1 class="titulosPrincipales">CONTACTO</h1>
+        <!-- <img src="../multimedia/portadaInicio.jpg" alt="Contacto" class="foto-principal"> -->
+        </div>
+    </main>
+
+
+    <section class="formulario">
+        <h2>Comunicate con nosotros</h2>
+        <form>
+            <div>
+                <label for="nombre"> Nombre: </label>
+                <input type="text" name="nombre">
+            </div>
+           
+            <div>
+                <label for="apellido"> Apellido: </label>
+                <input type="text" name="apellido">
+            </div>
+            
+            <div>
+                <label for="correo"> e-mail </label>
+                <input type="email" name="correo">
+            </div>
+
+            <div>
+                <label for="comentario"> Deja tu consulta y te responderemos a la brevedad:</label>
+            </div>
+            <div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="contenido"> ¿Te gustó el contenido de la pagina? </label>
+                <input type="radio" name="contenido" value="Si"> Si
+                <input type="radio" name="contenido" value="No"> No
+            </div>
+
+            <div>
+                <label for="saberMas">¿Sobre qué tema queres saber más? </label>
+                        <select name="saberMas" >
+                            <option value="-">------</option>
+                            <option value="A">Artistas</option>
+                            <option value="R">Sertanejo Raíz</option>
+                            <option value="S">Sofrencia</option>
+                            <option value="T">Top 10</option>
+                        </select>
+            </div>
+
+            <fieldset>
+                <legend>Legales</legend>
+                <label for="datos">Acepto que muestren mis datos</label>
+                <input type="checkbox" name="datos" value="datos" required>
+            </fieldset>
+
+            <div>
+                <input type="button" value="Solo funciona con JS"> 
+                
+                <input type="reset" value="Borrar"> 
+                
+                <input type="submit" value="Enviar comentario"> 
+            </div>
+        </form>
+    </section>
+
+
+
+    <footer>
+        <div>
+            <img src="../multimedia/logo2-removebg-preview.png" alt="Logo" class="logoFooter"></a>
+        </div>
+
+        <div>
+            <h5>Sobre nosotros</h5>
+        </div>
+
+        <div>
+            <h5> Seguinos en:</h5>
+            <a href="https://www.instagram.com.ar/">Instagram</a>
+        </div>
+
+        <div>
+            <h5>Newsletter</h5>
+            <form class="newsletter">
+                <div>
+                    <label for="correo"> e-mail </label>
+                    <input type="email" name="correo">
+                </div>
+            </form>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5;
+}
+
+body{
+    background-color:  #e0e1dd ;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.menu{
+    list-style-type: square;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #e0e1dd;
+    width:auto;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 10px 40px;
+ }
+
+.menu a{
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 30px;
+    display:block;
+    padding: 20px;
+    padding-bottom: 10px;
+} 
+
+.logoMenu{
+    width: 150px;
+    height: 150px;
+}
+
+.titulosPrincipales{
+    margin-top: 230px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 80px;
+    text-align: center;
+    color: #bcbcb9;
+}
+
+.fotoPrincipalFondoInicio{
+    width: auto;
+    height: 900px;
+    background-image:url("../multimedia/portadaInicio2.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotoPrincipalFondoArtistas{
+    width: auto;
+    height: 900px;
+    background-image:url("../multimedia/portadaTop10.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotoPrincipalFondoTop10{
+    width: auto;
+    height: 900px;
+    background-image:url("../multimedia/portadaConoceMas.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotoPrincipalFondoContacto{
+    width: auto;
+    height: 900px;
+    background-image:url("../multimedia/portadaInicio.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotoPrincipalFondoConoce{
+    width:auto;
+    height: 900px;
+    background-image:url("../multimedia/portadaArtistas.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .foto-principal{
+    width: 1350px;
+}
+ */
+/* .destacadosTitulo{
+    text-align: center;
+    margin: 30px;
+    font-weight: normal;
+}
+
+.destacados{
+    background-color:#e0e1dd ;
+    overflow: auto;
+    box-shadow: inset -1px 3px 8px 5px #bcbcb9; */ 
+
+
+.destacadosGrid{
+    background-color:#e0e1dd ;
+    overflow: auto;
+    box-shadow: inset -1px 3px 8px 5px #bcbcb9; 
+    display: grid; 
+    width: 1500px;
+    height: 700px ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 1.5fr; 
+    gap: 10px 14px; 
+    grid-template-areas: 
+    "titulo titulo titulo titulo titulo"
+    "foto1 foto2 foto3 foto4 foto5"; 
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-evenly;
+    justify-content: space-around;
+
+}
+
+.destacadosTitulo{
+    grid-area: titulo;
+    text-align: center;
+    margin: 30px;
+    font-weight: normal;
+}
+
+.foto1 { 
+    grid-area: foto1; 
+    background-image: url("../multimedia/destacadoMaiara.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+
+}
+
+.foto2 { 
+    grid-area: foto2;
+    background-image: url("../multimedia/destacadoHenrJu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+    
+.foto3 { 
+    grid-area: foto3;
+    background-image: url("../multimedia/destacadoLuan.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    
+}
+
+.foto4 { 
+    grid-area: foto4;
+    background-image: url("../multimedia/destacadoMarilia.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.foto5 { 
+    grid-area: foto5; 
+    background-image: url("../multimedia/destacadoHugGui.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+
+.fotosMasTocadas{
+    width: 200px;
+    height: 600px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.logoFooter{
+    width: 100px;
+    height: 100px;
+}
+
+.newsletter{
+    font-size: 15px;
+}
+
+.boxArtistas h2{
+    font-size: 25px;
+    padding: 20px 20px;
+    font-weight: normal;}
+
+.boxArtistasFoto{
+    width: 350px;
+    padding: 5px 20px;
+}
+
+.boxArtistas p{
+    padding: 30px 30px;
+    font-weight: normal;
+}
+
+.boxArtistas a{
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+.boxArtistasIndividual{
+    box-shadow: inset -1px 3px 8px 5px #bcbcb9;
+    margin: 20px;
+}
+
+.boxFlex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.canciones{
+    width: 1200px;
+    height: 500px;
+    background-color:#e0e1dd;
+    overflow: auto;
+    box-shadow: inset -1px 3px 8px 5px #bcbcb9;
+    margin: 50px 80px;
+}
+
+.canciones h2{
+    text-align: center;
+    padding: 30px;
+    font-weight: normal;
+}
+
+.listaSpotify{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.formulario h2{
+    text-align: center;
+    padding-bottom:  20px;
+    font-weight: normal;
+}
+
+.formulario{
+    width: 600px;
+    box-shadow: inset -1px 3px 8px 5px #bcbcb9;
+    margin: 50px 380px 50px 380px;
+    padding: 30px;
+    font-weight: normal;
+}
+
+.formulario div{
+    padding: 10px;
+    font-weight: normal;
+}
+
+.raiz{
+    width: 600px;
+    box-shadow: inset -1px 3px 8px 5px #bcbcb9;
+    margin: 30px 0px 30px 50px;   
+}
+
+.historia h2{
+    font-size: 20px ;
+    padding: 20px 20px 10px 20px;
+    font-weight: normal;
+}
+
+.raizFoto{
+    width: 600px;
+    padding: 10px 20px ;
+}
+
+.raizTxt{
+    width: 600px;
+    text-align: center;
+    padding: 10px 20px ;
+    font-weight: normal;
+}
+
+.raizVideo{
+    width: 600px;
+    padding: 10px 20px 20px 20px;
+}
+
+.sofrencia{
+    width: 600px;
+    box-shadow: inset -1px 3px 8px 5px #bcbcb9;
+   /*  margin: 30px; */
+    position: absolute;
+    top: 0px;
+    left: 700px;
+}
+
+.sofrenciaFoto{
+    width: 600px;
+    height: 360px;
+    padding: 10px 20px 20px 20px;
+}
+
+.sofrenciaTxt{
+    width: 600px;
+    text-align: center;
+    padding: 10px 20px ;
+    font-weight: normal;
+}
+
+.sofrenciaVideo{
+    width: 600px;
+    padding: 10px 20px ;
+}
+
+.historia{
+    position: relative;
+}
+
+.referentes h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    font-weight: normal;
+}
+
+.referentesFoto{
+    width: 250px;
+    margin: 10px 20px;
+}
+
+.referentes h5{
+    margin: 10px 20px;
+    font-weight: normal;
+}
+
+.carrouselBox{
+    width: 500px;
+}
+
